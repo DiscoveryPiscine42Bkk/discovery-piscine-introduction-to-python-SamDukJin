@@ -3,10 +3,11 @@
 num_inp = input("Give me a number: ")
 
 try:
-   if float(num_inp).is_integer():
-      print("This number is an integer.")
+   num = float(num_inp)
+   if num - int(num) > 0:
+      print(int(num) + 1)
    else:
-      print("This number is a float.")
+      print(int(num))
 except ValueError:
    print("Invalid input.")
 

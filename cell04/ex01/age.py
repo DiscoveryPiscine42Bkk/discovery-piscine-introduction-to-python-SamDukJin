@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 age_inp = int(input("Please tell me your age: "))
 
 print("You are currently ", age_inp, "years old.")
