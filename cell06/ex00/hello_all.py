@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
 def hello():
-   print("Hello everyone!")
+   print("Hello, everyone!")
    
 hello()
