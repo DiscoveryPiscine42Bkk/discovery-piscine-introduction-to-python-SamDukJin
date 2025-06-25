@@ -12,4 +12,4 @@ else:
    if count == 0:
       print("none")
    else:
-      print('z\n' * count)
+      print('z' * count)
