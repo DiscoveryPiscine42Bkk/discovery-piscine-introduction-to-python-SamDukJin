@@ -7,7 +7,7 @@ if len(sys.argv) == 2:
     if word == sys.argv[1]:
         print("Good job!")
     else:
-        print("none")
+        print("Nope, sorry...")
 else:
-    print("No parameter provided")
+    print("none")
 
